@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="funciones.js" ></script>
+</head>
+<body>
+    
+ <div class="container" >
+        <div class="col-md-7">
+
+            <h1 class="page-header">
+                  Registrar usuario
+                  
+            </h1>
+               
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Registre un empleado</h3>
+                    
+                    
+                </div>
+
+                <div class="panel-body">
+
+                   <form method="POST" enctype="multipart/form-data">
+                                   
+                                        
+                                         <img src="user.jpg" width="150px" alt="">   
+                                        <div class="form-group">
+                                            <label for="usuario">Usuario:</label>
+                                            <input class="form-control"type="text" name="usuario" id="usuario" placeholder="ingrese nombre de usuario" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pass">Password:</label>
+                                            <input class="form-control"type="text" name="Pass" id="Pass" placeholder="ingrese su Password" >
+                                        </div>
+                                      
+                                     
+                                
+                                        </div>
+                                
+
+                                    <br>
+                                
+                                    <input class="btn btn-primary "type="submit" onclick="Login()" value="Guardar" name="guardar">
+          
+       
+                </form>
+
+
+</body>
+</html>
